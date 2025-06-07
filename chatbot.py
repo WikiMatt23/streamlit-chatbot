@@ -4,7 +4,7 @@ import openai
 import os
 import json
 
-openai.api_key = "OPENAI_API_KEY"  # Replace with your actual API key
+openai.api_key = st.secrets["OPENAI_API_KEY"]  # Replace with your actual API key
 
 st.title("💬 GPT-4o-mini Chat")
 
